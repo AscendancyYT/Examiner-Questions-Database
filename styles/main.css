@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .navbar{
+  width: 600px;
+  height: 200px;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  border-radius: 20px;
+  transition: all .2s linear;
+  gap: 30px;
+}
+.container .navbar .logo{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .navbar .form{
+  width: 100%;
+  height: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .navbar .form .searchQuestionsInp{
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container .navbar .form .buttons{
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container .navbar .form .buttons .searchQuestionBtn{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+.container .navbar .form .buttons .searchQuestionBtn:hover{
+  color: #000;
+  background-color: #fff;
+}
+.container .navbar .form .buttons .addQuestionBtn{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+.container .navbar .form .buttons .addQuestionBtn:hover{
+  color: #fff;
+  background-color: #000;
+}
